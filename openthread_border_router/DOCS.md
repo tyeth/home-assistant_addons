@@ -46,7 +46,17 @@ create a new integration named "Open Thread Border Router". With Home Assistant
 Core 2023.3 and newer the OTBR will get configured automatically. The Thread
 integration allows to inspect the network configuration.
 
-You will still need to go to the Thread integration page and select as your preferred network, and then to add devices using your mobile via the companion app. **Don't forget to sink the credentials** for the Thread network with your companion app, by going to settings.
+You will still need to go to the Thread integration page and select as your
+preferred network, and then to add devices using your mobile via the companion
+app. **Don't forget to sync the credentials** for the Thread network with your
+companion app.
+
+On an Android phone in the HA app go to **Settings** > **Companion App** >
+**Troubleshooting** > **Sync Thread credentials**.
+
+Or for an iPhone, go to **Settings** > **Devices & services**, select the
+Thread integration, select **Configure** under Services. At the bottom of the
+preferred network box, select **Send credentials to phone**.
 
 ### Web interface (advanced)
 
